@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.board .row {
+  width: 100%;
+  border-bottom: 1px solid #999;
+}
+.board .row .item {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 1em 0em;
+  background-color: #eee;
+  white-space: pre;
+}
+
+.board .row .item {
+  background-color: #a3af5b;
+}
+.board .row .item.header {
+  background-color: white;
+}
+.board .row .item.active {
+  background-color: #fedb12;
+}
+.add {
+  width: 100%;
+  padding: 1em 0em;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
